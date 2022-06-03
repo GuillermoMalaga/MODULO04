@@ -13,7 +13,7 @@
         });
         console.log(btnEditar.innerHTML);
         let btnRemover = document.createElement("button");
-        btnRemover.className="boton-editar";
+        btnRemover.className="boton-remover";
         btnRemover.innerHTML="<i class='fa fa-trash'></i>";
         btnRemover.addEventListener("click",function(){
             this.parentNode.remove();
